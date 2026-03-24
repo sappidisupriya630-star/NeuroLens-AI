@@ -25,10 +25,14 @@
     <div id="questionBox" class="card hidden">
         <p id="progress"></p>
         <h2 id="questionText"></h2>
+
         <div class="btn-group">
             <button onclick="answer('yes')">Yes</button>
             <button onclick="answer('no')">No</button>
         </div>
+
+        <!-- Voice Button -->
+        <button class="mic-btn" onclick="startVoice()">🎤 Speak Answer</button>
     </div>
 
     <!-- Result -->
